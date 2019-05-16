@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Thorlabs.MotionControl.Benchtop.StepperMotorCLI">
+      <HintPath>bin\Thorlabs.MotionControl.Benchtop.StepperMotorCLI.dll</HintPath>
+    </Reference>
+    <Reference Include="Thorlabs.MotionControl.DeviceManagerCLI">
+      <HintPath>bin\Thorlabs.MotionControl.DeviceManagerCLI.dll</HintPath>
+    </Reference>
+    <Reference Include="Thorlabs.MotionControl.GenericMotorCLI">
+      <HintPath>bin\Thorlabs.MotionControl.GenericMotorCLI.dll</HintPath>
+    </Reference>
+    <Reference Include="Thorlabs.MotionControl.PrivateInternal">
+      <HintPath>bin\Thorlabs.MotionControl.PrivateInternal.dll</HintPath>
+    </Reference>
+    <Reference Include="Thorlabs.MotionControl.Tools.Common">
+      <HintPath>bin\Thorlabs.MotionControl.Tools.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Thorlabs.MotionControl.Tools.Logging">
+      <HintPath>bin\Thorlabs.MotionControl.Tools.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.Toolkit">
+      <HintPath>bin\Xceed.Wpf.Toolkit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
